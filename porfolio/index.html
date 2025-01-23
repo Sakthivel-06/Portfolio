@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    /* Reset some default styles */
+    body, h1, h2, p, ul {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Set black background color for body and padding */
+    body {
+      background-color: #000000; /* Black background */
+      color: #f1f1f1; /* Light text for contrast */
+      line-height: 1.6;
+      padding: 0;
+      font-size: 16px;
+    }
+
+    /* Navigation Bar Styles */
+    nav {
+      background-color: #007BFF; /* Blue background for navigation */
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #007BFF; /* Blue background */
+      color: white;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: red; /* Red color for the <h1> tag */
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    /* Container for the page content */
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    /* About Section Styles */
+    .about {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
+    }
+
+    .about img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .about h2 {
+      font-size: 2.5em;
+      color: #f1f1f1;
+    }
+
+    .about p {
+      font-size: 1.1em;
+      line-height: 1.8;
+      max-width: 650px;
+    }
+
+    /* Projects Section Styles */
+    .projects {
+      margin-bottom: 40px;
+    }
+
+    .projects h2 {
+      font-size: 2.5em;
+      color: #007BFF; /* Blue for the title */
+      margin-bottom: 20px;
+    }
+
+    .projects ul {
+      list-style-type: none;
+    }
+
+    .projects li {
+      margin-bottom: 25px;
+      padding: 10px;
+      background-color: #333; /* Dark background for projects */
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .project-title {
+      font-size: 1.8em;
+      color: #007BFF;
+    }
+
+    .project-description {
+      font-size: 1.1em;
+      color: #f1f1f1;
+    }
+
+    /* Contact Section Styles */
+    .contact {
+      margin-bottom: 40px;
+    }
+
+    .contact h2 {
+      font-size: 2.5em;
+      color: #007BFF;
+      margin-bottom: 15px;
+    }
+
+    .contact p {
+      font-size: 1.2em;
+      line-height: 1.8;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #007BFF;
+      color: white;
+      padding: 20px 0;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Ragubalan Portfolio</h1>
+    <p>Welcome to my personal website</p>
+  </header>
+
+  <div class="container">
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <img src="your-photo.jpg" alt="Your Photo"> <!-- Add your photo here -->
+      <div>
+        <h2>About Me</h2>
+        <p>Hello! I'm Sakthivel N, I am persuving 2nd Year at Sri Krishna College of Technology , Coimbatore.
+            I am a passionate web developer with experience in creating dynamic websites and web applications. I specialize in front-end technologies like HTML, CSS, JavaScript, and React, but I also have experience with back-end development.</p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <h2>Skills</h2>
+      <ul>
+        <li>
+          <div class="ragu">HTML</div>
+          <div class="project-description">A personal portfolio website to showcase my skills and projects.</div>
+        </li>
+        <li>
+          <div class="project-title"></div>
+          <div class="project-description">A fully-functional e-commerce app built using React and Node.js.</div>
+        </li>
+        <li>
+          <div class="project-title">Project 3: Blog Platform</div>
+          <div class="project-description">A blog platform where users can create, read, and share blog posts, built with Django and PostgreSQL.</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <p>If you want to get in touch, feel free to send me an email at <a href="mailto:your.email@example.com">your.email@example.com</a> or follow me on social media:</p>
+      <footer>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | 
+        <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+      </footer>
+    </section>
+
+  </div>
+
+</body>
+</html>
